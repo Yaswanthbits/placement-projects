@@ -38,3 +38,35 @@ This project was developed as part of a group assignment. It is included here fo
 
 ## Note
 This repository includes this group project with proper attribution to acknowledge the collaborative work done on this assignment.
+
+## Complete Project Files
+
+The source code for this project contains the following structure:
+
+```
+src/
+├── application/          - JavaFX controller classes for UI
+├── FXMLfiles/            - FXML layout definition files
+├── Stylesheet/           - CSS styling files
+└── module-info.java      - Java module configuration
+```
+
+Key files included:
+- `(1).classpath.xml` - Eclipse classpath configuration
+- `(1).project.xml` - Eclipse project configuration
+- `DBS_Report.docx` & `DBS_Report.pdf` - Project documentation and reports
+- `build(1).fxbuild.xml` - Build configuration
+
+## How to Run
+
+1. Ensure you have JDK 8+ installed
+2. Set up MySQL database with appropriate drivers
+3. Import project into Eclipse or IntelliJ
+4. Configure classpath with required libraries (JavaFX, MySQL connector)
+5. Run the application from the application controller class
+
+## References
+
+- **Original Repository**: [physicsilu/Supermarket-Management-System](https://github.com/physicsilu/Supermarket-Management-System)
+- **Original Author**: [physicsilu](https://github.com/physicsilu)
+- **Database Report**: See DBS_Report files for detailed documentation
