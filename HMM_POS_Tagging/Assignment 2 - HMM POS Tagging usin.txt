@@ -1,0 +1,42 @@
+Assignment 2 - HMM POS Tagging using Viterbi
+Group Members: 
+K Yaswanth Reddy - 2022A7PS0109P
+
+
+1. Create and activate virtual environment (recommended):
+   python -m venv hmm_pos_env
+   # Windows:
+   hmm_pos_env\Scripts\activate
+   # Mac/Linux:
+   source hmm_pos_env/bin/activate
+
+2. Install required packages:
+   pip install numpy jupyterlab ipykernel
+
+3. Register the kernel (only once):
+   python -m ipykernel install --user --name=hmm_pos_env --display-name="HMM POS Tagger (venv)"
+
+4. Start Jupyter:
+   jupyter lab
+
+5. Open Assignment2_HMM_POS_Tagging.ipynb
+   → Select kernel: "HMM POS Tagger (venv)"
+   → Run all cells
+
+The code will:
+- Automatically download en_ewt-ud-train.conllu if not present
+- Train the HMM with Laplace smoothing
+- Run Viterbi on test set
+- Print top 10 transitions & emissions
+- Show accuracy, sample predictions, and error analysis
+
+NO NLTK, spaCy, or scikit-learn used — 100% from scratch and assignment-compliant.
+
+Tested on:
+- Python 3.11
+- Accuracy achieved: 86.94%
+
+Submission contains:
+1. Assignment2_HMM_POS_Tagging.ipynb (with full code + output)
+2. Report_Assignment2_HMM_POS_Tagging.pdf
+3. README.txt (this file)
