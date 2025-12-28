@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<name>Supermarket-Management-System</name>
+	<version>1.0</version>
+	<description>JavaFX Build Configuration</description>
+	<buildcommand>
+		<javafxVersion>11.0.2</javafxVersion>
+		<platformSpecificLibsPath>javafx-sdk-11.0.2</platformSpecificLibsPath>
+		<mainClass>application.Main</mainClass>
+	</buildcommand>
+</project>
